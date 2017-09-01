@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RecyclerViewDemo</string>
+    <string name="reloading">重新加载</string>
+</resources>

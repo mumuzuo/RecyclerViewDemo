@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="myProgressBarStyleLarge" >
+        　　<item name="android:indeterminateDrawable">@drawable/progress_large</item>
+        　　<item name="android:minWidth">76dip</item>
+        　　<item name="android:maxWidth">76dip</item>
+        　　<item name="android:minHeight">76dip</item>
+        　　<item name="android:maxHeight">76dip</item>
+    </style>
+
+</resources>

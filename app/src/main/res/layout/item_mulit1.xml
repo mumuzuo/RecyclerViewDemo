@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mulit_shape"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/survey_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.医生态度如何"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/divider" />
+
+    <RadioGroup
+        android:id="@+id/survey_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/surver_button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="满意"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/surver_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="良好"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/surver_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="一般"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/surver_button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="恶劣"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/surver_button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="非常不满意"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/survey_content"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/divider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:text=" 如不满意，请填写原因:"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/survey_content_item0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mulit_edit_shape"
+            android:hint="150字以内"
+            android:imeOptions="actionNext"
+            android:maxLength="150"
+            android:maxLines="7"
+            android:padding="5dp"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
