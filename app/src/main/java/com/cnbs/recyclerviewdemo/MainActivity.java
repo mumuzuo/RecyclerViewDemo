@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.cnbs.recyclerviewdemo.groupRV.GroupActivity;
 import com.cnbs.recyclerviewdemo.indexRV.IndexRVActivity;
 import com.cnbs.recyclerviewdemo.mulitRV.MulitActivity;
 import com.cnbs.recyclerviewdemo.refreshloadRV.RVActivity;
@@ -22,12 +23,16 @@ public class MainActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.rv_0, R.id.rv_1, R.id.rv_2, R.id.rv_3, R.id.rv_4})
+    @OnClick({R.id.rv_01,R.id.rv_0, R.id.rv_1, R.id.rv_2, R.id.rv_3, R.id.rv_4})
     public void onClick(View view) {
         switch (view.getId()) {
+            case R.id.rv_01:
+                startActivity(new Intent(MainActivity.this, GroupActivity.class));
+                break;
             case R.id.rv_0:
                 startActivity(new Intent(MainActivity.this, IndexRVActivity.class));
                 break;
+
             case R.id.rv_1:
                 startActivity(new Intent(MainActivity.this, MulitActivity.class));
                 break;
@@ -39,6 +44,8 @@ public class MainActivity extends BaseActivity {
                 break;
             case R.id.rv_4:
                 startActivity(new Intent(MainActivity.this, EShopActivity.class));
+                break;
+            default:
                 break;
         }
     }

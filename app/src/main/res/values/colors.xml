@@ -6,8 +6,10 @@
 
     <color name="white">#ffffff</color>
     <color name="bg_argb">#44827e80</color>
+    <color name="title_type">#EBEFF4</color>
     <color name="base_color">#775A79</color>
     <color name="black">#000000</color>
+    <color name="black_text">#f0121212</color>
     <color name="divider">#DAD8D9</color>
     <color name="button_press">#968498</color>
     <color name="assess_no_shape">#d3d3d3</color>

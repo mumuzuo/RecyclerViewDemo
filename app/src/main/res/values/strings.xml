@@ -1,4 +1,18 @@
 <resources>
     <string name="app_name">RecyclerViewDemo</string>
     <string name="reloading">重新加载</string>
+
+    <string name="rv_title">RecyclerView 使用系列</string>
+    <string name="rv_group">分组</string>
+    <string name="rv_index">快速索引条</string>
+    <string name="rv_mulit">多item</string>
+    <string name="rv_refresh">RecyclerView刷新加载</string>
+    <string name="rv_refresh_super">SuperRecyclerView刷新加载</string>
+    <string name="rv_vlayout">VLayout-复杂电商首页</string>
+    <string name="rv_other">未完待续…</string>
+
+    <string name="rv_group_0">ItemDecoration</string>
+    <string name="rv_group_1">Adapter</string>
+    <string name="rv_group_2">VLayout</string>
+
 </resources>
